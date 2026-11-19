@@ -1,0 +1,458 @@
+{
+  "coca-cola-original": {
+    "id": "coca-cola-original",
+    "image": "/images/products/coca-cola-original.jpg",
+    "source": "https://www.onestop.co.uk/wp-content/uploads/b0388857-e0d2-4258-bb13-707e2da7283e.png",
+    "query": "Coca-Cola Coca-Cola Original 330 ml official product packaging front"
+  },
+  "coca-cola-zero-sugar": {
+    "id": "coca-cola-zero-sugar",
+    "image": "/images/products/coca-cola-zero-sugar.jpg",
+    "source": "https://tareeqalkawther.com/wp-content/uploads/2025/10/Slide9_9f5c6f86-0d78-4ff8-b990-ca296b0d19b1.jpg",
+    "query": "Coca-Cola Coca-Cola Zero Sugar 330 ml official product packaging front"
+  },
+  "coca-cola-diet": {
+    "id": "coca-cola-diet",
+    "image": "/images/products/coca-cola-diet.jpg",
+    "source": "https://ik.imagekit.io/pimberly/595e406f0f15f30010780448/5eee2043/5d6fa0666cb21115740001de/f29328df/AU05387_01.jpg",
+    "query": "Coca-Cola Coca-Cola Diet 330 ml official product packaging front"
+  },
+  "coca-cola-cherry": {
+    "id": "coca-cola-cherry",
+    "image": "/images/products/coca-cola-cherry.jpg",
+    "source": "https://cdn.mafrservices.com/pim-content/SAU/media/product/747719/1742980204/747719_main.jpg?im=Resize=480",
+    "query": "Coca-Cola Coca-Cola Cherry 330 ml official product packaging front"
+  },
+  "pepsi-original": {
+    "id": "pepsi-original",
+    "image": "/images/products/pepsi-original.jpg",
+    "source": "https://1211101917.rsc.cdn77.org/temp/1783672283_0cdeb7da993ac64a77e77d330917f992.jpg",
+    "query": "Pepsi Pepsi Original 330 ml official product packaging front"
+  },
+  "pepsi-zero-sugar": {
+    "id": "pepsi-zero-sugar",
+    "image": "/images/products/pepsi-zero-sugar.jpg",
+    "source": "https://mam-shop.at/cdn/shop/files/2100000118212_dd442518-0bf5-46f1-b8f1-e4bd574deb4c.webp?v=1775741610&width=1445",
+    "query": "Pepsi Pepsi Zero Sugar 330 ml official product packaging front"
+  },
+  "pepsi-diet": {
+    "id": "pepsi-diet",
+    "image": "/images/products/pepsi-diet.jpg",
+    "source": "https://bf1af2.a-cdn.akinoncloud.com/products/2024/09/21/133591/42c4445c-167e-4422-8f29-75a5cd619aac.jpg",
+    "query": "Pepsi Pepsi Diet 330 ml official product packaging front"
+  },
+  "pepsi-max": {
+    "id": "pepsi-max",
+    "image": "/images/products/pepsi-max.jpg",
+    "source": "https://www.greatbritishimports.com/cdn/shop/files/pepsi-max-330ml-1.jpg?v=1779861793&width=1946",
+    "query": "Pepsi Pepsi Max 330 ml official product packaging front"
+  },
+  "sprite": {
+    "id": "sprite",
+    "image": "/images/products/sprite.jpg",
+    "source": "https://bf1af2.akinoncloudcdn.com/products/2024/09/20/67229/6a140051-6040-4980-99b3-5c83f32ffdd9_size3840_cropCenter.jpg",
+    "query": "Sprite Sprite 330 ml official product packaging front"
+  },
+  "sprite-zero": {
+    "id": "sprite-zero",
+    "image": "/images/products/sprite-zero.jpg",
+    "source": "https://www.carrefour.pl/images/product/org/sprite-zero-sugar-napoj-gazowany-o-smaku-cytrynowo-limonkowym-330-ml-csDdUB.jpg",
+    "query": "Sprite Sprite Zero 330 ml official product packaging front"
+  },
+  "fanta-orange": {
+    "id": "fanta-orange",
+    "image": "/images/products/fanta-orange.jpg",
+    "source": "https://www.onestop.co.uk/wp-content/uploads/ae461822-82cf-4586-8552-f664ddfe27e1.png",
+    "query": "Fanta Fanta Orange 330 ml official product packaging front"
+  },
+  "fanta-strawberry": {
+    "id": "fanta-strawberry",
+    "image": "/images/products/fanta-strawberry.jpg",
+    "source": "https://www.chipshopcatering.ie/wp-content/uploads/2022/08/fanta-strawberry-330ml-600x600.jpg",
+    "query": "Fanta Fanta Strawberry 330 ml official product packaging front"
+  },
+  "fanta-grape": {
+    "id": "fanta-grape",
+    "image": "/images/products/fanta-grape.jpg",
+    "source": "https://bevspirits.hk/wp-content/uploads/2022/03/3B.-Fanta-Grape-330-ml-Pack-of-24.jpg",
+    "query": "Fanta Fanta Grape 330 ml official product packaging front"
+  },
+  "7up": {
+    "id": "7up",
+    "image": "/images/products/7up.jpg",
+    "source": "https://bf1af2.akinoncloudcdn.com/products/2024/09/21/133578/16d95906-6491-42ce-ad28-05f45634359f_size3840_cropCenter.jpg",
+    "query": "7UP 7UP 330 ml official product packaging front"
+  },
+  "mountain-dew": {
+    "id": "mountain-dew",
+    "image": "/images/products/mountain-dew.jpg",
+    "source": "https://bf1af2.akinoncloudcdn.com/products/2024/09/21/133580/ab7ce5ad-7e9a-40cb-9c19-6e05db087049_size3840_cropCenter.jpg",
+    "query": "Mountain Dew Mountain Dew 330 ml official product packaging front"
+  },
+  "dr-pepper": {
+    "id": "dr-pepper",
+    "image": "/images/products/dr-pepper.jpg",
+    "source": "https://www.xenos.nl/pub/cdn/833365/800/833365.jpg",
+    "query": "Dr Pepper Dr Pepper 330 ml official product packaging front"
+  },
+  "mirinda-orange": {
+    "id": "mirinda-orange",
+    "image": "/images/products/mirinda-orange.jpg",
+    "source": "https://getmore.co.zw/media/catalog/product/cache/3f36306ca51eb36f1e5e6fea253d6941/image/4958b843/mirinda-orange-330ml.png",
+    "query": "Mirinda Mirinda Orange 330 ml official product packaging front"
+  },
+  "schweppes-tonic-water": {
+    "id": "schweppes-tonic-water",
+    "image": "/images/products/schweppes-tonic-water.jpg",
+    "source": "https://cdn.s-liquor.com.kh/sliquors3/wp-content/uploads/2020/07/Schweppes-Tonic-Water-330ml.jpg?strip=all&lossy=1&webp=85&avif=80&ssl=1",
+    "query": "Schweppes Schweppes Tonic Water 330 ml official product packaging front"
+  },
+  "red-bull-original": {
+    "id": "red-bull-original",
+    "image": "/images/products/red-bull-original.jpg",
+    "source": "https://walmartgt.vtexassets.com/arquivos/ids/415352/Bebida-Energ-tica-Red-Bull-Original-Lata-250ml-1-43735.jpg?v=638330784006070000",
+    "query": "Red Bull Red Bull Original 250 ml official product packaging front"
+  },
+  "red-bull-sugarfree": {
+    "id": "red-bull-sugarfree",
+    "image": "/images/products/red-bull-sugarfree.jpg",
+    "source": "https://craftshack.com/cdn/shop/files/Red-Bull-Sugar-Free-Energy-Drink-250ml_720x.jpg?v=1702715941",
+    "query": "Red Bull Red Bull Sugarfree 250 ml official product packaging front"
+  },
+  "red-bull-tropical-edition": {
+    "id": "red-bull-tropical-edition",
+    "image": "/images/products/red-bull-tropical-edition.jpg",
+    "source": "https://www.sparscotland.co.uk/images/products/brandbank/705e61f3-4ea4-41e6-8e8b-3d54473a2d37.png",
+    "query": "Red Bull Red Bull Tropical Edition 250 ml official product packaging front"
+  },
+  "red-bull-blue-edition": {
+    "id": "red-bull-blue-edition",
+    "image": "/images/products/red-bull-blue-edition.jpg",
+    "source": "https://images2.europris.no/produkter/vw800/22/220091/220091_main.webp",
+    "query": "Red Bull Red Bull Blue Edition 250 ml official product packaging front"
+  },
+  "monster-energy-original": {
+    "id": "monster-energy-original",
+    "image": "/images/products/monster-energy-original.jpg",
+    "source": "https://www.soriana.com/on/demandware.static/-/Sites-soriana-grocery-master-catalog/default/dw842ae83f/images/product/0070847035916_A.jpg",
+    "query": "Monster Monster Energy Original 473 ml official product packaging front"
+  },
+  "monster-ultra-white": {
+    "id": "monster-ultra-white",
+    "image": "/images/products/monster-ultra-white.jpg",
+    "source": "https://cartagoonline.com/wp-content/uploads/2025/08/1-Imagenes-de-Productos-10.png",
+    "query": "Monster Monster Ultra White 473 ml official product packaging front"
+  },
+  "monster-mango-loco": {
+    "id": "monster-mango-loco",
+    "image": "/images/products/monster-mango-loco.jpg",
+    "source": "https://www.cofas.com.uy/wp-content/uploads/2024/05/481999.jpg",
+    "query": "Monster Monster Mango Loco 473 ml official product packaging front"
+  },
+  "monster-pipeline-punch": {
+    "id": "monster-pipeline-punch",
+    "image": "/images/products/monster-pipeline-punch.jpg",
+    "source": "https://wongfood.vteximg.com.br/arquivos/ids/753570-1000-1000/ENERGIZANTE-MONSTER-473ML-PIPELINE-1-351691919.jpg?v=638745149882530000",
+    "query": "Monster Monster Pipeline Punch 473 ml official product packaging front"
+  },
+  "monster-ultra-violet": {
+    "id": "monster-ultra-violet",
+    "image": "/images/products/monster-ultra-violet.jpg",
+    "source": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/5065f1ad-885f-4aa2-9d64-3c30cea704e1/800x800.jpg",
+    "query": "Monster Monster Ultra Violet 473 ml official product packaging front"
+  },
+  "rockstar-original": {
+    "id": "rockstar-original",
+    "image": "/images/products/rockstar-original.jpg",
+    "source": "https://i5.walmartimages.com/asr/dfac25ba-a974-4835-9caa-32bdc090ac24.1858d9e02e1eafd37712ec8bc7df1227.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "query": "Rockstar Rockstar Original 473 ml official product packaging front"
+  },
+  "rockstar-zero-sugar": {
+    "id": "rockstar-zero-sugar",
+    "image": "/images/products/rockstar-zero-sugar.jpg",
+    "source": "https://i5.walmartimages.com/asr/2595a051-6d8e-4ced-bc1d-f7504c1fb0a3.4c2f30da1a1f61c6f2e5e030d1e04eed.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "query": "Rockstar Rockstar Zero Sugar 473 ml official product packaging front"
+  },
+  "nos-energy": {
+    "id": "nos-energy",
+    "image": "/images/products/nos-energy.jpg",
+    "source": "https://media.sobeys.com/original/662446_EA_ml_primary_front_na_VOILA_0592894e60949b6c608b7c9b189f9c791e69b632.JPG",
+    "query": "NOS NOS Energy 473 ml official product packaging front"
+  },
+  "sting-energy": {
+    "id": "sting-energy",
+    "image": "/images/products/sting-energy.jpg",
+    "source": "https://5.imimg.com/data5/SELLER/Default/2023/12/367101582/AP/WG/BH/34873815/250ml-sting-energy-drink-1000x1000.jpg",
+    "query": "Sting Sting Energy 250 ml official product packaging front"
+  },
+  "hell-energy-classic": {
+    "id": "hell-energy-classic",
+    "image": "/images/products/hell-energy-classic.jpg",
+    "source": "https://5.imimg.com/data5/SELLER/Default/2026/3/588647283/HX/KJ/DD/48352815/250ml-hell-classic-energy-drink-1000x1000.jpg",
+    "query": "HELL HELL Energy Classic 250 ml official product packaging front"
+  },
+  "celsius-energy": {
+    "id": "celsius-energy",
+    "image": "/images/products/celsius-energy.jpg",
+    "source": "https://www.instacart.com/image-server/1200x1200/www.instacart.com/assets/domains/product-image/file/large_30c62a56-b0fb-456e-b188-579655f6fc19.png",
+    "query": "Celsius Celsius Energy 355 ml official product packaging front"
+  },
+  "starbucks-frappuccino-vanilla": {
+    "id": "starbucks-frappuccino-vanilla",
+    "image": "/images/products/starbucks-frappuccino-vanilla.jpg",
+    "source": "https://whim.com.mv/web/image/product.product/15868/image_1024/[01241000] STARBUCKS FRAPPUCCINO VANILLA 281ML?unique=9414eb2",
+    "query": "Starbucks Starbucks Frappuccino Vanilla 281 ml official product packaging front"
+  },
+  "starbucks-frappuccino-mocha": {
+    "id": "starbucks-frappuccino-mocha",
+    "image": "/images/products/starbucks-frappuccino-mocha.jpg",
+    "source": "https://www.snrshopping.com/upload/product/Starbucks Frappuccino Mocha Chilled Coffee Drink 280mL-2359/Starbucks Frappuccino Mocha Chilled Coffee Drink 280mL-cTsHsdocba.jpg",
+    "query": "Starbucks Starbucks Frappuccino Mocha 281 ml official product packaging front"
+  },
+  "starbucks-frappuccino-caramel": {
+    "id": "starbucks-frappuccino-caramel",
+    "image": "/images/products/starbucks-frappuccino-caramel.jpg",
+    "source": "https://www.unvdc.com/images/product/starbucks-frappuccino-caramel-281ml.jpg",
+    "query": "Starbucks Starbucks Frappuccino Caramel 281 ml official product packaging front"
+  },
+  "starbucks-doubleshot-espresso": {
+    "id": "starbucks-doubleshot-espresso",
+    "image": "/images/products/starbucks-doubleshot-espresso.jpg",
+    "source": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwbb8d0bb4/images/col/792/7923883-frente.jpg?sw=2000&sh=2000",
+    "query": "Starbucks Starbucks Doubleshot Espresso 200 ml official product packaging front"
+  },
+  "nescaf-ice-coffee": {
+    "id": "nescaf-ice-coffee",
+    "image": "/images/products/nescaf-ice-coffee.jpg",
+    "source": "https://www.nescafe.com/mx/sites/default/files/2024-11/ICE FRONT 1.png",
+    "query": "Nescafé Nescafé Ice Coffee 240 ml official product packaging front"
+  },
+  "nescaf-latte": {
+    "id": "nescaf-latte",
+    "image": "/images/products/nescaf-latte.jpg",
+    "source": "https://www.nescafe.com/sg/sites/default/files/2023-11/NESCAFÉ® Milk Coffee Latte Can 240ml.png",
+    "query": "Nescafé Nescafé Latte 240 ml official product packaging front"
+  },
+  "nescaf-mocha": {
+    "id": "nescaf-mocha",
+    "image": "/images/products/nescaf-mocha.jpg",
+    "source": "https://i5.walmartimages.com/asr/87547f9b-621b-4fe3-b907-f930cade2638.de2fc986b3a2af7e27d6ad1a366670ad.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "query": "Nescafé Nescafé Mocha 240 ml official product packaging front"
+  },
+  "java-monster-mean-bean": {
+    "id": "java-monster-mean-bean",
+    "image": "/images/products/java-monster-mean-bean.jpg",
+    "source": "https://candybrands.eu/cdn/shop/files/37a42e6096717b23a2d07aa26e00f807.png?v=1779210195&width=1445",
+    "query": "Monster Java Monster Mean Bean 444 ml official product packaging front"
+  },
+  "dunkin-iced-coffee": {
+    "id": "dunkin-iced-coffee",
+    "image": "/images/products/dunkin-iced-coffee.jpg",
+    "source": "https://down-id.img.susercontent.com/file/159b05a9cda7c6f906790cb948a92562",
+    "query": "Dunkin Dunkin Iced Coffee 405 ml official product packaging front"
+  },
+  "costa-coffee-mocha": {
+    "id": "costa-coffee-mocha",
+    "image": "/images/products/costa-coffee-mocha.jpg",
+    "source": "https://assets.taste-institute.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ1U2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3abd3651edbc8e8c7a896394a044e9998b086286/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2hwQXAwRWFRTFlCM3NHT2c5aVlXTnJaM0p2ZFc1a09oQjBjbUZ1YzNCaGNtVnVkQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--01b754b7512de491f41ec0d4e9046608a3e1c83a/9031003.png",
+    "query": "Costa Coffee Costa Coffee Mocha 250 ml official product packaging front"
+  },
+  "costa-coffee-latte": {
+    "id": "costa-coffee-latte",
+    "image": "/images/products/costa-coffee-latte.jpg",
+    "source": "https://bf1af2.a-cdn.akinoncloud.com/products/2024/09/19/100106/460e42a2-2ba8-46da-8c7c-f13eeb76f56c_size3840_cropCenter.jpg",
+    "query": "Costa Coffee Costa Coffee Latte 250 ml official product packaging front"
+  },
+  "illy-cold-brew-coffee": {
+    "id": "illy-cold-brew-coffee",
+    "image": "/images/products/illy-cold-brew-coffee.jpg",
+    "source": "https://illygroup.azureedge.net/images/580x580/jpg/files/2020_rtd_coldbrew-it-es-be-fr_lr_.jpg",
+    "query": "illy illy Cold Brew Coffee 250 ml official product packaging front"
+  },
+  "aquafina": {
+    "id": "aquafina",
+    "image": "/images/products/aquafina.jpg",
+    "source": "https://product.hstatic.net/1000141988/product/nuoc_tinh_khiet_aqufina_cf3a70c288954627b25189ddc57203c4.jpg",
+    "query": "Aquafina Aquafina 500 ml official product packaging front"
+  },
+  "dasani": {
+    "id": "dasani",
+    "image": "/images/products/dasani.jpg",
+    "source": "https://d16zmt6hgq1jhj.cloudfront.net/product/3020/Dasani Mineral Water 500ml.webp",
+    "query": "Dasani Dasani 500 ml official product packaging front"
+  },
+  "evian-natural-mineral-water": {
+    "id": "evian-natural-mineral-water",
+    "image": "/images/products/evian-natural-mineral-water.jpg",
+    "source": "https://bf1af2.akinoncloudcdn.com/products/2024/09/27/168784/d320a647-5036-4407-810a-aff2d6fa17c8.jpg",
+    "query": "Evian Evian Natural Mineral Water 500 ml official product packaging front"
+  },
+  "fiji-natural-artesian-water": {
+    "id": "fiji-natural-artesian-water",
+    "image": "/images/products/fiji-natural-artesian-water.jpg",
+    "source": "https://m.media-amazon.com/images/I/71UAn+4YhSL._AC_.jpg",
+    "query": "FIJI Water FIJI Natural Artesian Water 500 ml official product packaging front"
+  },
+  "perrier-sparkling-water": {
+    "id": "perrier-sparkling-water",
+    "image": "/images/products/perrier-sparkling-water.jpg",
+    "source": "https://coffeehubeg.com/cdn/shop/files/PerrierSparklingWaterRegular-330ml-Packof4.jpg?v=1726154551",
+    "query": "Perrier Perrier Sparkling Water 330 ml official product packaging front"
+  },
+  "s-pellegrino-sparkling-water": {
+    "id": "s-pellegrino-sparkling-water",
+    "image": "/images/products/s-pellegrino-sparkling-water.jpg",
+    "source": "https://www.sanpellegrino.com/us/sites/g/files/xknfdk2166/files/2022-11/sp-img-gallery-product-500-glass.jpg",
+    "query": "S.Pellegrino S.Pellegrino Sparkling Water 500 ml official product packaging front"
+  },
+  "smartwater": {
+    "id": "smartwater",
+    "image": "/images/products/smartwater.jpg",
+    "source": "https://vivaelmusculo.com/22432-large_default/smart-water-600-ml.jpg",
+    "query": "smartwater smartwater 600 ml official product packaging front"
+  },
+  "voss-still-water": {
+    "id": "voss-still-water",
+    "image": "/images/products/voss-still-water.jpg",
+    "source": "https://m.media-amazon.com/images/I/61cUXznrHmL._AC_SL1500_.jpg",
+    "query": "VOSS VOSS Still Water 500 ml official product packaging front"
+  },
+  "tropicana-orange-juice": {
+    "id": "tropicana-orange-juice",
+    "image": "/images/products/tropicana-orange-juice.jpg",
+    "source": "https://tropicana.co.uk/storage/app/media/TROPICANA SS BOTTLE_300ML_ORANGE WITH BITS.png",
+    "query": "Tropicana Tropicana Orange Juice 300 ml official product packaging front"
+  },
+  "tropicana-apple-juice": {
+    "id": "tropicana-apple-juice",
+    "image": "/images/products/tropicana-apple-juice.jpg",
+    "source": "https://cdn.shopify.com/s/files/1/0588/2701/4293/files/MM0861-12-20251002232517.png?v=1759447519",
+    "query": "Tropicana Tropicana Apple Juice 300 ml official product packaging front"
+  },
+  "minute-maid-orange": {
+    "id": "minute-maid-orange",
+    "image": "/images/products/minute-maid-orange.jpg",
+    "source": "https://down-id.img.susercontent.com/file/id-11134207-7rasa-m2q6e40uithg59",
+    "query": "Minute Maid Minute Maid Orange 300 ml official product packaging front"
+  },
+  "minute-maid-apple": {
+    "id": "minute-maid-apple",
+    "image": "/images/products/minute-maid-apple.jpg",
+    "source": "https://www.degrocery.com/de-grocery/2019/09/1.MINUTE-MAID-FRUIT-DRINK-APPLE-300ML.jpg",
+    "query": "Minute Maid Minute Maid Apple 300 ml official product packaging front"
+  },
+  "simply-orange": {
+    "id": "simply-orange",
+    "image": "/images/products/simply-orange.jpg",
+    "source": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/d54918cf-0707-4378-9f16-9af71ea36363/500x500.jpg",
+    "query": "Simply Simply Orange 340 ml official product packaging front"
+  },
+  "ceres-apple-juice": {
+    "id": "ceres-apple-juice",
+    "image": "/images/products/ceres-apple-juice.jpg",
+    "source": "https://www.riteway.vg/media/catalog/product/2/8/282a0c0b73000d9b7800143978501261.jpg?optimize=low&fit=bounds&height=700&width=700&canvas=700:700",
+    "query": "Ceres Ceres Apple Juice 330 ml official product packaging front"
+  },
+  "ceres-mango-juice": {
+    "id": "ceres-mango-juice",
+    "image": "/images/products/ceres-mango-juice.jpg",
+    "source": "https://drryor7280ntb.cloudfront.net/media/catalog/product/7/5/751217123463_1_24sl0tqonjbnki5b.jpg",
+    "query": "Ceres Ceres Mango Juice 330 ml official product packaging front"
+  },
+  "ceres-mixed-fruit-juice": {
+    "id": "ceres-mixed-fruit-juice",
+    "image": "/images/products/ceres-mixed-fruit-juice.jpg",
+    "source": "https://m.media-amazon.com/images/I/71Hj9du1mAL._SL1500_.jpg",
+    "query": "Ceres Ceres Mixed Fruit Juice 330 ml official product packaging front"
+  },
+  "gatorade-cool-blue": {
+    "id": "gatorade-cool-blue",
+    "image": "/images/products/gatorade-cool-blue.jpg",
+    "source": "https://d2r9epyceweg5n.cloudfront.net/stores/001/108/127/products/gatorade-500-cool-bluebyb1-f255d965b865f37eb215996059670665-1024-1024.png",
+    "query": "Gatorade Gatorade Cool Blue 500 ml official product packaging front"
+  },
+  "gatorade-orange": {
+    "id": "gatorade-orange",
+    "image": "/images/products/gatorade-orange.jpg",
+    "source": "https://bf1af2.a-cdn.akinoncloud.com/products/2024/09/20/106769/702d447e-857b-483f-917c-477fcf19ba48_size3840_cropCenter.jpg",
+    "query": "Gatorade Gatorade Orange 500 ml official product packaging front"
+  },
+  "gatorade-fruit-punch": {
+    "id": "gatorade-fruit-punch",
+    "image": "/images/products/gatorade-fruit-punch.jpg",
+    "source": "https://d3dnwnveix5428.cloudfront.net/store_8c40c94f-96bf-48d7-a723-9200cc430864/images/70Akp5PlvpUdQdG1744195079.png",
+    "query": "Gatorade Gatorade Fruit Punch 500 ml official product packaging front"
+  },
+  "powerade-mountain-blast": {
+    "id": "powerade-mountain-blast",
+    "image": "/images/products/powerade-mountain-blast.jpg",
+    "source": "https://cdn.globusonline.cz/content/images/product/powerade-mountain-blast-500-ml_63050.jpg",
+    "query": "Powerade Powerade Mountain Blast 500 ml official product packaging front"
+  },
+  "prime-hydration-blue-raspberry": {
+    "id": "prime-hydration-blue-raspberry",
+    "image": "/images/products/prime-hydration-blue-raspberry.jpg",
+    "source": "https://bf1af2.a-cdn.akinoncloud.com/products/2024/09/12/82860/380e850b-823f-4712-b287-f27a99366ba4_size3840_cropCenter.jpg",
+    "query": "PRIME PRIME Hydration Blue Raspberry 500 ml official product packaging front"
+  },
+  "prime-hydration-tropical-punch": {
+    "id": "prime-hydration-tropical-punch",
+    "image": "/images/products/prime-hydration-tropical-punch.jpg",
+    "source": "https://kdhaka.com/wp-content/uploads/2023/12/Prime-Hydration-Tropical-Punch-Sports-Drink-500ml.jpg",
+    "query": "PRIME PRIME Hydration Tropical Punch 500 ml official product packaging front"
+  },
+  "prime-hydration-lemon-lime": {
+    "id": "prime-hydration-lemon-lime",
+    "image": "/images/products/prime-hydration-lemon-lime.jpg",
+    "source": "https://www.carrefour.it/on/demandware.static/-/Sites-carrefour-master-catalog-IT/default/dwea7fecb1/large/PRIMEHYDRATIONLEMONLIME-7640427570637-1.png",
+    "query": "PRIME PRIME Hydration Lemon Lime 500 ml official product packaging front"
+  },
+  "bodyarmor-sports-drink": {
+    "id": "bodyarmor-sports-drink",
+    "image": "/images/products/bodyarmor-sports-drink.jpg",
+    "source": "https://cdn.bodyarmorsportsdrink.com/cdn/2353/2025/09/22/main-BODYARMOR-Sports-Drink-Sports-Beverage-Pineapple-Coconut-Coconut-Water-Hydration-Natural-Flavors-With-Vitamins-PotassiumPacked-Electrolytes-Perfect-Fo-1429554-22.jpg",
+    "query": "BODYARMOR BODYARMOR Sports Drink 500 ml official product packaging front"
+  },
+  "arizona-green-tea": {
+    "id": "arizona-green-tea",
+    "image": "/images/products/arizona-green-tea.jpg",
+    "source": "https://www.americangrocer.co.uk/cdn/shop/products/greenteawith.png?v=1630605687",
+    "query": "Arizona Arizona Green Tea 680 ml official product packaging front"
+  },
+  "arizona-lemon-tea": {
+    "id": "arizona-lemon-tea",
+    "image": "/images/products/arizona-lemon-tea.jpg",
+    "source": "https://media.delitea.se/product-images/XL/arizona-lemon-tea-680ml-0.jpg",
+    "query": "Arizona Arizona Lemon Tea 680 ml official product packaging front"
+  },
+  "lipton-ice-tea-peach": {
+    "id": "lipton-ice-tea-peach",
+    "image": "/images/products/lipton-ice-tea-peach.jpg",
+    "source": "https://bf1af2.a-cdn.akinoncloud.com/products/2024/09/11/63350/52f194e5-796b-4bc2-a9bd-b2161e411e03_size3840_cropCenter.jpg",
+    "query": "Lipton Lipton Ice Tea Peach 500 ml official product packaging front"
+  },
+  "lipton-ice-tea-lemon": {
+    "id": "lipton-ice-tea-lemon",
+    "image": "/images/products/lipton-ice-tea-lemon.jpg",
+    "source": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/17042025_1744862200811_1744862243157_553407_FLS_08711327579040_H1N1.png",
+    "query": "Lipton Lipton Ice Tea Lemon 500 ml official product packaging front"
+  },
+  "snapple-peach-tea": {
+    "id": "snapple-peach-tea",
+    "image": "/images/products/snapple-peach-tea.jpg",
+    "source": "https://online.citysuper.com.hk/cdn/shop/products/170200132-1-snapple-peach-tea-473ml-s.jpg?v=1652328508",
+    "query": "Snapple Snapple Peach Tea 473 ml official product packaging front"
+  },
+  "nestea-lemon-tea": {
+    "id": "nestea-lemon-tea",
+    "image": "/images/products/nestea-lemon-tea.jpg",
+    "source": "https://www.crackerjack.co.nz/content/products/nestea-iced-tea-lemon-500ml-FD1184-13446.jpg?width=980",
+    "query": "Nestea Nestea Lemon Tea 500 ml official product packaging front"
+  },
+  "milo-ready-to-drink": {
+    "id": "milo-ready-to-drink",
+    "image": "/images/products/milo-ready-to-drink.jpg",
+    "source": "https://tealbwholesale.com/wp-content/uploads/2026/03/Nestle-Milo-Drink-240ml.png",
+    "query": "Milo Milo Ready-to-Drink 240 ml official product packaging front"
+  }
+}

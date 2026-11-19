@@ -1,0 +1,16 @@
+{
+  "name": "Pure Sips — Halal Beverage Marketplace",
+  "short_name": "Pure Sips",
+  "description": "An original halal beverage marketplace with bright drinks and clear ingredients.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf7f0",
+  "theme_color": "#182e29",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

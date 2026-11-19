@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pure Sips — The ultimate 3D beverage experience featuring original Coca-Cola, Pepsi, Sprite, Fanta, and Red Bull." />
+    <title>Pure Sips — 3D Vault | Coca-Cola, Pepsi & Iconic Drinks</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Google Fonts: Anton (for heavy 3D titles), Syne (modern luxury), DM Sans & DM Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,400&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="dark-theme">
+    <!-- Ambient Background Glows -->
+    <div class="ambient-glow glow-top" id="ambient-glow"></div>
+    <div class="ambient-glow glow-bottom"></div>
+
+    <!-- Top Navigation Bar -->
+    <nav class="nav-top" id="nav-top">
+      <div class="nav-left-brand">
+        <a class="brand" href="#top" aria-label="Pure Sips home">
+          <span class="brand-mark">PS</span>
+          <span class="brand-text">PURE<em>SIPS</em></span>
+        </a>
+      </div>
+
+      <div class="nav-center-menu">
+        <a href="#hero-section" class="nav-item active">3D Vault</a>
+        <a href="#stats-section" class="nav-item">Specs & Chill</a>
+        <a href="#shop-section" class="nav-item">Original Collection</a>
+        <button type="button" class="nav-item track-btn" data-open-modal="order-modal">Track Order</button>
+      </div>
+
+      <div class="nav-right-actions">
+        <div class="notice-pill">
+          <span class="pulse-dot"></span>
+          <span>Free delivery at 6+ cans</span>
+        </div>
+        <button class="bag-trigger" type="button" aria-controls="bag" aria-expanded="false" id="bag-button">
+          <i class="ri-shopping-bag-3-fill"></i>
+          <span>Vault Bag</span>
+          <span class="bag-count" id="bag-count">0</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Side Quick Dock (Lagunitas inspiration) -->
+    <aside class="side-dock" id="side-dock" aria-label="Quick Navigation">
+      <div class="dock-indicator"></div>
+      <a href="#hero-section" class="dock-link active" title="3D Hero Can" aria-label="Hero"><i class="ri-fire-fill"></i></a>
+      <a href="#stats-section" class="dock-link" title="Flavor Anatomy" aria-label="Specs"><i class="ri-dashboard-3-line"></i></a>
+      <a href="#shop-section" class="dock-link" title="Can Collection" aria-label="Shop"><i class="ri-cup-line"></i></a>
+      <button type="button" class="dock-link" data-open-modal="order-modal" title="Track Pour" aria-label="Track"><i class="ri-map-pin-time-line"></i></button>
+    </aside>
+
+    <main id="top">
+      <!-- HERO 3D CAN VAULT -->
+      <section class="hero-3d-section" id="hero-section">
+        <!-- Giant Background Watermark Text -->
+        <div class="hero-watermark-wrap" aria-hidden="true">
+          <span class="watermark-text" id="hero-watermark">COCA-COLA</span>
+        </div>
+
+        <div class="hero-content-grid">
+          <!-- Left Hero Meta / Info -->
+          <div class="hero-text-col">
+            <div class="eyebrow-pill">
+              <span class="flame-icon">🔥</span>
+              <span id="hero-category-label">ORIGINAL COLA TASTE</span>
+            </div>
+            
+            <h1 class="hero-title" id="hero-title">
+              ICE COLD.<br />
+              <span class="accent-text" id="hero-accent-text">MAXIMUM</span><br />
+              FIZZ.
+            </h1>
+
+            <p class="hero-desc" id="hero-desc">
+              Straight from the global vault. Chilled original Coca-Cola, crisp Pepsi, electric Sprite, zesty Fanta, and high-performance Red Bull—delivered ice-cold to your door.
+            </p>
+
+            <div class="hero-action-row">
+              <button type="button" class="btn btn-burgundy" id="hero-add-btn">
+                <span>Add To Vault Bag</span>
+                <i class="ri-arrow-right-up-line"></i>
+              </button>
+              <a href="#shop-section" class="btn btn-ghost">
+                <span>Explore All Drinks</span>
+                <i class="ri-arrow-down-line"></i>
+              </a>
+            </div>
+
+            <!-- Dynamic Live Can Specs in Hero -->
+            <div class="hero-specs-strip" id="hero-specs-strip">
+              <div class="spec-cell">
+                <small>SERVE TEMP</small>
+                <strong id="hero-spec-temp">2°C</strong>
+              </div>
+              <div class="spec-cell">
+                <small>CAFFEINE</small>
+                <strong id="hero-spec-caffeine">32 mg</strong>
+              </div>
+              <div class="spec-cell">
+                <small>ENERGY</small>
+                <strong id="hero-spec-calories">139 kcal</strong>
+              </div>
+              <div class="spec-cell">
+                <small>RATING</small>
+                <strong id="hero-spec-rating">4.9 ★</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Central 3D Interactive Stage -->
+          <div class="hero-3d-stage" id="hero-3d-stage">
+            <div class="stage-back-splat" id="stage-splat"></div>
+            
+            <!-- Floating Splash Water Layer -->
+            <div class="floating-splash splash-front" aria-hidden="true">
+              <img src="/img/splash.png" alt="" class="splash-img" />
+            </div>
+
+            <!-- 3D Transform Can Container -->
+            <div class="can-3d-wrapper" id="hero-can-wrapper">
+              <img src="/img/coca-cola-can.png" alt="Coca-Cola Original Can" id="hero-main-can" class="hero-can-img" />
+              <!-- Shadow and Base Reflection -->
+              <div class="can-shadow" id="can-shadow"></div>
+            </div>
+
+            <!-- Floating 3D Pills around Can -->
+            <div class="floating-stat-badge stat-badge-top" id="stat-badge-top">
+              <span class="badge-dot"></span>
+              <div>
+                <strong>100% Genuine</strong>
+                <small>Direct from Bottler</small>
+              </div>
+            </div>
+
+            <div class="floating-stat-badge stat-badge-bottom" id="stat-badge-bottom">
+              <i class="ri-flashlight-fill"></i>
+              <div>
+                <strong id="badge-price-val">$2.20</strong>
+                <small>Ice Chilled</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Flavor Switcher Selector (Like UsmanAhmadDev's 3D product switcher) -->
+          <div class="hero-switcher-col">
+            <div class="switcher-header">
+              <span>SELECT YOUR DRINK</span>
+              <small>Click to spin 3D can</small>
+            </div>
+
+            <div class="can-switcher-list" id="can-switcher-list">
+              <button type="button" class="switcher-btn active" data-drink="coca-cola-can" data-name="COCA-COLA" data-accent="#E61A27" data-burgundy="#800020">
+                <span class="switcher-dot" style="background: #E61A27"></span>
+                <span class="switcher-name">Coca-Cola Classic</span>
+                <span class="switcher-vol">330ml</span>
+              </button>
+
+              <button type="button" class="switcher-btn" data-drink="pepsi-can" data-name="PEPSI COLA" data-accent="#005CB9" data-burgundy="#002b66">
+                <span class="switcher-dot" style="background: #005CB9"></span>
+                <span class="switcher-name">Pepsi Refresh</span>
+                <span class="switcher-vol">330ml</span>
+              </button>
+
+              <button type="button" class="switcher-btn" data-drink="sprite-can" data-name="SPRITE" data-accent="#008B44" data-burgundy="#004d26">
+                <span class="switcher-dot" style="background: #008B44"></span>
+                <span class="switcher-name">Sprite Lemon-Lime</span>
+                <span class="switcher-vol">330ml</span>
+              </button>
+
+              <button type="button" class="switcher-btn" data-drink="fanta-can" data-name="FANTA ORANGE" data-accent="#FF6E00" data-burgundy="#7d2800">
+                <span class="switcher-dot" style="background: #FF6E00"></span>
+                <span class="switcher-name">Fanta Sparkling</span>
+                <span class="switcher-vol">330ml</span>
+              </button>
+
+              <button type="button" class="switcher-btn" data-drink="redbull-can" data-name="RED BULL" data-accent="#D82338" data-burgundy="#500014">
+                <span class="switcher-dot" style="background: #D82338"></span>
+                <span class="switcher-name">Red Bull Energy</span>
+                <span class="switcher-vol">250ml</span>
+              </button>
+
+              <button type="button" class="switcher-btn" data-drink="coca-cola-bottle" data-name="GLASS CONTOUR" data-accent="#8A122E" data-burgundy="#3b030f">
+                <span class="switcher-dot" style="background: #8A122E"></span>
+                <span class="switcher-name">Coke Contour Glass</span>
+                <span class="switcher-vol">355ml</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3D Marquee Ticker -->
+        <div class="ticker-ribbon" aria-hidden="true">
+          <div class="ticker-track">
+            <span>COCA-COLA ORIGINAL</span><i class="ri-asterisk"></i>
+            <span>PEPSI WILD REFRESH</span><i class="ri-asterisk"></i>
+            <span>SPRITE LEMON-LIME</span><i class="ri-asterisk"></i>
+            <span>FANTA EXOTIC ORANGE</span><i class="ri-asterisk"></i>
+            <span>RED BULL ENERGY</span><i class="ri-asterisk"></i>
+            <span>ICE COLD 2°C GUARANTEE</span><i class="ri-asterisk"></i>
+            <span>COCA-COLA ORIGINAL</span><i class="ri-asterisk"></i>
+            <span>PEPSI WILD REFRESH</span><i class="ri-asterisk"></i>
+            <span>SPRITE LEMON-LIME</span><i class="ri-asterisk"></i>
+            <span>FANTA EXOTIC ORANGE</span><i class="ri-asterisk"></i>
+            <span>RED BULL ENERGY</span><i class="ri-asterisk"></i>
+            <span>ICE COLD 2°C GUARANTEE</span><i class="ri-asterisk"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPECS & CHILL (Flavor Anatomy inspired by UsmanAhmadDev #page2) -->
+      <section class="stats-section" id="stats-section">
+        <div class="section-container">
+          <div class="section-header-row">
+            <div>
+              <p class="section-tag">BEVERAGE ANATOMY</p>
+              <h2 class="section-headline">THE SCIENCE OF <i>FIZZ.</i></h2>
+            </div>
+            <p class="section-subtext">
+              We store and pack every can at sub-zero cold-cellar standards. Maximum carbonation bite, zero flat pours, and unmistakable crisp crack on every pop.
+            </p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="card-glow"></div>
+              <span class="stat-num">2.4<small>°C</small></span>
+              <h3>Sub-Zero Chilled Storage</h3>
+              <p>Maintained in our temperature-calibrated coolers so your drink lands at prime refreshment ready to drink immediately.</p>
+              <div class="stat-bar"><div class="stat-bar-fill" style="width: 95%;"></div></div>
+            </div>
+
+            <div class="stat-card">
+              <div class="card-glow"></div>
+              <span class="stat-num">5.2<small>BAR</small></span>
+              <h3>Carbonation Pressure</h3>
+              <p>High-intensity micro-effervescence that bursts on the palate with that classic tingling throat punch.</p>
+              <div class="stat-bar"><div class="stat-bar-fill" style="width: 90%;"></div></div>
+            </div>
+
+            <div class="stat-card">
+              <div class="card-glow"></div>
+              <span class="stat-num">100<small>%</small></span>
+              <h3>Authentic Sealed Recipe</h3>
+              <p>Only authentic factory-sealed cans and bottles from official licensed bottling works across the globe.</p>
+              <div class="stat-bar"><div class="stat-bar-fill" style="width: 100%;"></div></div>
+            </div>
+
+            <div class="stat-card">
+              <div class="card-glow"></div>
+              <span class="stat-num">&lt;35<small>MIN</small></span>
+              <h3>Fast Ice-Cooled Pack</h3>
+              <p>Right-sized insulated thermal packaging with dry cooling packs available for orders of any quantity.</p>
+              <div class="stat-bar"><div class="stat-bar-fill" style="width: 85%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MAIN SHOP CATALOG (3D Tilt Cards) -->
+      <section class="shop-section" id="shop-section">
+        <div class="section-container">
+          <div class="catalog-header-bar">
+            <div>
+              <p class="section-tag">ORIGINAL INVENTORY</p>
+              <h2 class="section-headline">POP A <i>CAN.</i></h2>
+            </div>
+            <div class="search-wrap">
+              <i class="ri-search-2-line"></i>
+              <input type="search" id="search-input" placeholder="Search Coca-Cola, Pepsi, Sprite..." autocomplete="off" />
+            </div>
+          </div>
+
+          <!-- Category filter buttons -->
+          <div class="category-dock" id="category-dock" aria-label="Drink Categories"></div>
+          
+          <p class="results-indicator" id="results-indicator" aria-live="polite">Loading vault inventory...</p>
+
+          <!-- 3D Card Grid -->
+          <div class="drink-3d-grid" id="drink-grid" aria-live="polite">
+            <p class="loading-state">Chilling the cans...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- BRAND STANDARDS BANNER (Black & Burgundy) -->
+      <section class="standards-banner">
+        <div class="section-container">
+          <div class="standards-inner">
+            <div class="standards-copy">
+              <p class="section-tag">THE PURE SIPS STANDARD</p>
+              <h2>ZERO COMPROMISE.<br /><i>ALWAYS ORIGINAL.</i></h2>
+              <p>
+                From Atlanta’s secret formula to Pepsi’s bold punch, we deliver genuine, licensed, factory-fresh soft drinks in pristine collector-grade cans and vintage glass.
+              </p>
+              <div class="standards-badges">
+                <span class="badge-item"><i class="ri-checkbox-circle-fill"></i> 100% Original Formula</span>
+                <span class="badge-item"><i class="ri-checkbox-circle-fill"></i> Alcohol-Free</span>
+                <span class="badge-item"><i class="ri-checkbox-circle-fill"></i> Factory Sealed</span>
+                <span class="badge-item"><i class="ri-checkbox-circle-fill"></i> Recyclable Metal & Glass</span>
+              </div>
+            </div>
+            <div class="standards-art">
+              <img src="/img/pepsi-splash.png" alt="Pepsi splash" class="banner-can-art" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="section-container footer-content">
+        <div class="footer-brand-col">
+          <a class="brand brand-footer" href="#top">
+            <span class="brand-mark">PS</span>
+            <span class="brand-text">PURE<em>SIPS</em></span>
+          </a>
+          <p class="footer-tagline">The ultimate 3D cold beverage vault. Coca-Cola, Pepsi, Sprite, Fanta & iconic drinks delivered fresh.</p>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4>Navigation</h4>
+          <a href="#hero-section">3D Vault</a>
+          <a href="#stats-section">Specs & Chill</a>
+          <a href="#shop-section">Original Drinks</a>
+          <button type="button" class="footer-btn" data-open-modal="order-modal">Track Order</button>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Iconic Brands</h4>
+          <span>Coca-Cola Classic</span>
+          <span>Pepsi Refresh</span>
+          <span>Sprite Lemon-Lime</span>
+          <span>Fanta Orange</span>
+          <span>Red Bull Energy</span>
+        </div>
+      </div>
+
+      <div class="footer-bottom section-container">
+        <small>© <span id="current-year"></span> Pure Sips Vault. All trademarks (Coca-Cola, Pepsi, Sprite, Fanta, Red Bull) belong to their respective owners.</small>
+      </div>
+    </footer>
+
+    <!-- SLIDE-OVER BAG DRAWER (Black & Burgundy) -->
+    <aside class="bag-drawer" id="bag-drawer" aria-label="Shopping Bag" aria-hidden="true">
+      <div class="drawer-header">
+        <div>
+          <p class="drawer-eyebrow">YOUR CHILLED SELECTIONS</p>
+          <h2>Vault Bag</h2>
+        </div>
+        <button class="drawer-close-btn" type="button" data-close-bag aria-label="Close bag">×</button>
+      </div>
+
+      <!-- Free Delivery Gauge -->
+      <div class="delivery-gauge-wrap" id="delivery-gauge">
+        <div class="gauge-label">
+          <i class="ri-truck-fill"></i>
+          <span id="gauge-text">Add 6 cans for free delivery</span>
+        </div>
+        <div class="gauge-bar"><div class="gauge-fill" id="gauge-fill" style="width: 0%"></div></div>
+      </div>
+
+      <!-- Items List -->
+      <div class="bag-items-list" id="bag-items-list">
+        <div class="empty-bag-notice">
+          <i class="ri-cup-line empty-icon"></i>
+          <p>Your bag is waiting for ice-cold cans.</p>
+        </div>
+      </div>
+
+      <!-- Subtotal Summary -->
+      <div class="bag-footer-summary" id="bag-summary">
+        <div class="summary-line">
+          <span>Subtotal</span>
+          <strong id="bag-subtotal-val">$0.00</strong>
+        </div>
+        <p class="delivery-caption" id="bag-delivery-caption">Delivery: $3.50 (Free for 6+ cans)</p>
+        <button class="btn btn-burgundy btn-block" type="button" id="start-checkout-btn">
+          <span>Proceed To Checkout</span>
+          <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+
+      <!-- Checkout Form -->
+      <form class="checkout-form" id="checkout-form" novalidate hidden>
+        <div class="checkout-intro">
+          <p class="drawer-eyebrow">DELIVERY DETAILS</p>
+          <h3>Where should we send your chilled cans?</h3>
+        </div>
+        <label>
+          <span>Full Name</span>
+          <input name="name" type="text" placeholder="Your name" autocomplete="name" required minlength="2" />
+        </label>
+        <label>
+          <span>Email Address</span>
+          <input name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+        </label>
+        <label>
+          <span>Delivery Address</span>
+          <input name="address" type="text" placeholder="Street, apartment, suite, city" autocomplete="street-address" />
+        </label>
+        <button class="btn btn-burgundy btn-block" type="submit">
+          <span>Place Order Request</span>
+          <i class="ri-check-line"></i>
+        </button>
+        <button type="button" class="btn btn-link" id="cancel-checkout-btn">← Back to Bag Items</button>
+        <p class="checkout-error-msg" id="checkout-error-msg" aria-live="polite"></p>
+      </form>
+
+      <!-- Order Receipt View -->
+      <div class="order-receipt-box" id="order-receipt-box" hidden>
+        <div class="receipt-check-circle"><i class="ri-check-double-line"></i></div>
+        <p class="drawer-eyebrow">ORDER CONFIRMED</p>
+        <h3 id="receipt-order-id">SIP-000000</h3>
+        <p id="receipt-text-details" class="receipt-desc"></p>
+        <div class="receipt-btn-group">
+          <button type="button" class="btn btn-burgundy" id="receipt-track-shortcut">
+            <span>Track Live Status</span>
+            <i class="ri-radar-line"></i>
+          </button>
+          <button type="button" class="btn btn-ghost" data-close-bag>Continue Shopping</button>
+        </div>
+      </div>
+    </aside>
+
+    <div class="drawer-backdrop" data-close-bag></div>
+
+    <!-- 3D PRODUCT INSPECTION STUDIO MODAL -->
+    <div class="modal-overlay" id="product-modal" aria-hidden="true">
+      <div class="modal-card product-modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-drink-name">
+        <button class="modal-close-icon" type="button" data-close-modal="product-modal" aria-label="Close dialog">×</button>
+        
+        <div class="modal-3d-layout">
+          <!-- 3D Can Showcase Side -->
+          <div class="modal-visual-side" id="modal-visual-side">
+            <div class="modal-splat-glow"></div>
+            <div class="modal-can-stage" id="modal-can-stage">
+              <img src="/img/coca-cola-can.png" alt="" id="modal-can-img" class="modal-can-img" />
+              <div class="modal-can-shadow"></div>
+            </div>
+          </div>
+
+          <!-- Product Details Side -->
+          <div class="modal-info-side">
+            <div class="modal-badge-tag" id="modal-badge-tag">ORIGINAL COLA</div>
+            <h2 id="modal-drink-name" class="modal-headline">Coca-Cola Original</h2>
+            
+            <div class="modal-rating-strip">
+              <span class="stars">★★★★★</span>
+              <strong id="modal-rating-score">4.9</strong>
+              <span id="modal-reviews-count">(1,420 reviews)</span>
+            </div>
+
+            <p class="modal-copy" id="modal-copy"></p>
+
+            <!-- Specs Grid -->
+            <div class="modal-specs-grid">
+              <div class="spec-tile">
+                <small>VOLUME</small>
+                <strong id="modal-tile-vol">330 ml</strong>
+              </div>
+              <div class="spec-tile">
+                <small>CALORIES</small>
+                <strong id="modal-tile-cal">139 kcal</strong>
+              </div>
+              <div class="spec-tile">
+                <small>SUGAR</small>
+                <strong id="modal-tile-sugar">35 g</strong>
+              </div>
+              <div class="spec-tile">
+                <small>CHILL TEMP</small>
+                <strong id="modal-tile-temp">2°C</strong>
+              </div>
+            </div>
+
+            <div class="modal-tags-row" id="modal-tags-row"></div>
+
+            <div class="modal-footer-action">
+              <div class="modal-price-box">
+                <strong id="modal-price-val">$2.20</strong>
+                <small>Factory Sealed Can</small>
+              </div>
+
+              <div class="modal-stepper-wrap">
+                <div class="qty-stepper">
+                  <button type="button" id="modal-minus-btn" aria-label="Decrease quantity">−</button>
+                  <span id="modal-qty-text">1</span>
+                  <button type="button" id="modal-plus-btn" aria-label="Increase quantity">+</button>
+                </div>
+                <button type="button" class="btn btn-burgundy" id="modal-add-to-bag">
+                  <span>Add To Bag</span>
+                  <i class="ri-shopping-cart-2-fill"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ORDER TRACKING MODAL -->
+    <div class="modal-overlay" id="order-modal" aria-hidden="true">
+      <div class="modal-card track-modal-card" role="dialog" aria-modal="true" aria-labelledby="track-modal-heading">
+        <button class="modal-close-icon" type="button" data-close-modal="order-modal" aria-label="Close dialog">×</button>
+        <div class="track-modal-inner">
+          <p class="drawer-eyebrow">ORDER RADAR</p>
+          <h2 id="track-modal-heading" class="modal-headline">Track Your <i>Pour.</i></h2>
+          <p class="track-subtext">Enter your order ID (e.g. <code>SIP-D7B0FF45</code>) to inspect packing and transit status in real time.</p>
+          
+          <form id="track-form" class="track-search-form">
+            <div class="track-input-group">
+              <input type="text" id="track-input" placeholder="SIP-XXXXXXXX" autocomplete="off" required />
+              <button type="submit" class="btn btn-burgundy">Check Status</button>
+            </div>
+          </form>
+
+          <div class="track-result-container" id="track-result-container" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast-notification" id="toast" role="status" aria-live="polite"></div>
+
+    <!-- Product Card Template -->
+    <template id="product-card-template">
+      <article class="drink-card" tabindex="0">
+        <div class="card-ambient-glow"></div>
+        <div class="card-badge-row">
+          <span class="card-badge"></span>
+          <span class="card-rating"></span>
+        </div>
+        
+        <div class="card-visual-area">
+          <img src="" alt="" class="card-can-img" />
+          <div class="card-can-shadow"></div>
+        </div>
+
+        <div class="card-body">
+          <h3 class="card-title"></h3>
+          <p class="card-desc"></p>
+          
+          <div class="card-specs-row">
+            <span class="spec-pill spec-caffeine"></span>
+            <span class="spec-pill spec-cal"></span>
+          </div>
+
+          <div class="card-footer">
+            <div class="card-pricing">
+              <strong class="card-price"></strong>
+              <small class="card-size"></small>
+            </div>
+
+            <div class="card-actions">
+              <button type="button" class="btn-inspect" title="3D View">3D</button>
+              <button type="button" class="btn-quick-add" aria-label="Add to bag">
+                <span>Add</span>
+                <i class="ri-add-line"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <!-- GSAP Animation Library from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="/app.js" defer></script>
+  </body>
+</html>

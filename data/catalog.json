@@ -1,0 +1,195 @@
+{
+  "categories": [
+    { "id": "all", "name": "All Drinks", "icon": "⚡" },
+    { "id": "cola", "name": "Colas", "icon": "🥤" },
+    { "id": "citrus", "name": "Lemon & Citrus", "icon": "🍋" },
+    { "id": "orange", "name": "Orange & Fruit", "icon": "🍊" },
+    { "id": "energy", "name": "Energy", "icon": "🔥" }
+  ],
+  "products": [
+    {
+      "id": "coca-cola-can",
+      "name": "Coca-Cola Original",
+      "brand": "The Coca-Cola Company",
+      "category": "cola",
+      "price": 2.20,
+      "size": "330 ml can",
+      "rating": 4.9,
+      "reviews": 1420,
+      "badge": "Global Icon",
+      "tone": "burgundy",
+      "image": "/img/coca-cola-can.png",
+      "accent": "#E61A27",
+      "glow": "rgba(230, 26, 39, 0.45)",
+      "description": "The timeless, refreshing spark of original Coca-Cola. Chilled to perfection with fine effervescence.",
+      "tags": ["original recipe", "high fizz", "serve ice cold"],
+      "specs": {
+        "calories": "139 kcal",
+        "sugar": "35 g",
+        "caffeine": "32 mg",
+        "temp": "3°C"
+      }
+    },
+    {
+      "id": "pepsi-can",
+      "name": "Pepsi Wild Refresh",
+      "brand": "PepsiCo",
+      "category": "cola",
+      "price": 2.10,
+      "size": "330 ml can",
+      "rating": 4.8,
+      "reviews": 1180,
+      "badge": "Bold Flavor",
+      "tone": "pepsi",
+      "image": "/img/pepsi-can.png",
+      "accent": "#005CB9",
+      "glow": "rgba(0, 92, 185, 0.45)",
+      "description": "Bold, crisp cola taste with a brisk citrus-accented finish that hits the spot on every sip.",
+      "tags": ["bold cola", "crisp finish", "ice chilled"],
+      "specs": {
+        "calories": "150 kcal",
+        "sugar": "41 g",
+        "caffeine": "38 mg",
+        "temp": "2°C"
+      }
+    },
+    {
+      "id": "coca-cola-bottle",
+      "name": "Coca-Cola Contour Glass",
+      "brand": "The Coca-Cola Company",
+      "category": "cola",
+      "price": 2.80,
+      "size": "355 ml glass",
+      "rating": 5.0,
+      "reviews": 980,
+      "badge": "Classic Glass",
+      "tone": "burgundy",
+      "image": "/img/coca-cola-bottle.png",
+      "accent": "#8A122E",
+      "glow": "rgba(138, 18, 46, 0.55)",
+      "description": "Vintage Georgia-green glass contour bottle with genuine cane sugar. The ultimate cola drinking ritual.",
+      "tags": ["glass bottle", "cane sugar", "collector favorite"],
+      "specs": {
+        "calories": "140 kcal",
+        "sugar": "38 g",
+        "caffeine": "34 mg",
+        "temp": "1°C"
+      }
+    },
+    {
+      "id": "sprite-can",
+      "name": "Sprite Crisp Lemon-Lime",
+      "brand": "The Coca-Cola Company",
+      "category": "citrus",
+      "price": 2.10,
+      "size": "330 ml can",
+      "rating": 4.8,
+      "reviews": 890,
+      "badge": "Zero Caffeine",
+      "tone": "sprite",
+      "image": "/img/sprite-can.png",
+      "accent": "#008B44",
+      "glow": "rgba(0, 139, 68, 0.45)",
+      "description": "Electrifying lemon-lime taste, 100% natural flavors and instant thirst-quenching crispness.",
+      "tags": ["100% natural flavor", "caffeine free", "crisp citrus"],
+      "specs": {
+        "calories": "140 kcal",
+        "sugar": "38 g",
+        "caffeine": "0 mg",
+        "temp": "3°C"
+      }
+    },
+    {
+      "id": "fanta-can",
+      "name": "Fanta Sparkling Orange",
+      "brand": "The Coca-Cola Company",
+      "category": "orange",
+      "price": 2.20,
+      "size": "330 ml can",
+      "rating": 4.9,
+      "reviews": 760,
+      "badge": "Fruity Fizz",
+      "tone": "fanta",
+      "image": "/img/fanta-can.png",
+      "accent": "#FF6E00",
+      "glow": "rgba(255, 110, 0, 0.5)",
+      "description": "Bursting with sun-ripened orange juice essence, vibrant fizz, and maximum fruity refreshment.",
+      "tags": ["real fruit juice", "caffeine free", "vibrant punch"],
+      "specs": {
+        "calories": "160 kcal",
+        "sugar": "44 g",
+        "caffeine": "0 mg",
+        "temp": "4°C"
+      }
+    },
+    {
+      "id": "redbull-can",
+      "name": "Red Bull Energy Drink",
+      "brand": "Red Bull GmbH",
+      "category": "energy",
+      "price": 3.50,
+      "size": "250 ml can",
+      "rating": 4.9,
+      "reviews": 1640,
+      "badge": "Vitalizes Body & Mind",
+      "tone": "redbull",
+      "image": "/img/redbull-can.png",
+      "accent": "#D82338",
+      "glow": "rgba(216, 35, 56, 0.55)",
+      "description": "Appreciated worldwide by top athletes, busy professionals and college students. Vitalizes body and mind.",
+      "tags": ["taurine & b-vitamins", "alpine water", "high performance"],
+      "specs": {
+        "calories": "115 kcal",
+        "sugar": "27 g",
+        "caffeine": "80 mg",
+        "temp": "2°C"
+      }
+    },
+    {
+      "id": "sprite-bottle",
+      "name": "Sprite Contour Bottle",
+      "brand": "The Coca-Cola Company",
+      "category": "citrus",
+      "price": 2.50,
+      "size": "500 ml bottle",
+      "rating": 4.7,
+      "reviews": 510,
+      "badge": "On The Go",
+      "tone": "sprite",
+      "image": "/img/sprite-bottle.png",
+      "accent": "#00A859",
+      "glow": "rgba(0, 168, 89, 0.45)",
+      "description": "Half-liter resealable bottle of pure sparkling lemon-lime refreshment. Clean, clear and intensely cold.",
+      "tags": ["resealable bottle", "ice cold", "zero caffeine"],
+      "specs": {
+        "calories": "200 kcal",
+        "sugar": "54 g",
+        "caffeine": "0 mg",
+        "temp": "3°C"
+      }
+    },
+    {
+      "id": "fanta-bottle",
+      "name": "Fanta Orange 500ml Bottle",
+      "brand": "The Coca-Cola Company",
+      "category": "orange",
+      "price": 2.60,
+      "size": "500 ml bottle",
+      "rating": 4.8,
+      "reviews": 620,
+      "badge": "Party Size",
+      "tone": "fanta",
+      "image": "/img/fanta-bottle.png",
+      "accent": "#FF7700",
+      "glow": "rgba(255, 119, 0, 0.45)",
+      "description": "Big 500ml resealable bottle packed with zesty orange bubbles. Perfect for sharing or long road trips.",
+      "tags": ["orange juice blend", "bright carbonation", "family size"],
+      "specs": {
+        "calories": "210 kcal",
+        "sugar": "56 g",
+        "caffeine": "0 mg",
+        "temp": "4°C"
+      }
+    }
+  ]
+}
